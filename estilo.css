@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+header#menu{
+    height: 50px;
+    background-color:cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#encabezado{
+    align-items: left;
+    padding-left: 30px;
+}
+
+div#experiencia{
+    padding-left: 30px;
+}
+div#formacion{
+    padding-left: 30px;
+}
+
+div#contacto{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+button {
+    padding-left: 0;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+}
+
+img{
+    width: 300px;
+    float: right;
+    margin-top: -100px;
+    margin-right: 25px;
+}
+
+h1{
+    margin-top: 150px;
+    font-size: 3rem;
+    font-family: "Lato", sans-serif;
+    color: #024867;
+}
+
+h2{
+    font-size: 1rem;
+    font-family: "Lato", sans-serif;
+    margin-bottom: 100px;
+    margin-left: 3px;
+}
+
+h3{
+    font-family: "Raleway", sans-serif;
+    font-size: 1.6rem;
+    margin-top: 50px;
+    color: #024867;
+}
+
+h4{
+    font-size: 1.3rem;
+    font-family: "Lato", sans-serif;
+    margin-top: 15px;
+}
+
+h5{
+    font-size: 1rem;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+p{
+    font-size: 1rem;
+    padding-top: 117px;
+}
+
+footer{
+    margin-top: 40px;
+    height: 6px;
+    background-color:darkgray ;
+}
